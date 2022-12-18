@@ -6,9 +6,9 @@ import pathlib
 import requests
 
 archive_types = {
-    'year': 'years',
-    'tag': 'tags',
-    'category': 'categories'
+    'cast': 'cast',
+    'director': 'director',
+    'genre': 'genre'
 }
 
 input_options = ['delete_archives', 'delete_archives_folder']
